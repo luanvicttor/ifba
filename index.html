@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Informe os dados do cliente: </h4>
+    <form action="cliente.php">
+        Codigo: <input name="cod_cliente"><br>
+        Nome do cliente: <input name="nome_cliente"><br>
+        <button>Cadastrar</button>
+
+    </form><br>
+    <h4>Informe os dados do vendedor: </h4>
+    <form action="vendedor.php">
+        Codigo: <input name="cod_vendedor"><br>
+        Nome do vendedor: <input name="nome_vendedor"><br>
+        <button>Cadastrar</button>
+    </form><br>
+    <h4>Informe os dados do produto: </h4>
+    <form action="produto.php">
+        Codigo: <input name="cod_descricao"><br>
+        Descrição: <input name="descricao"><br>
+        <button>Cadastrar</button>
+    </form><br>
+    <h4>Criar Pedido: </h4>
+    <form action="pedido.php">
+        Numero do Pedido: <input name="cod_pedido"><br>
+        Data do Pedido: <input name="data_pedido"><br>
+        Código do Vendedor: <input name="cod_vendedor"><br>
+        Código do Cliente: <input name="cod_cliente"><br>
+        <button>Cadastrar</button>
+    </form><br>
+    <h4>Inserir dados no Pedido: </h4>
+    <form action="quantidade.php">
+        Numero do Pedido: <input name="cod_pedido"><br>
+        Codigo do Produto: <input name="cod_descricao"><br>
+        Quantidade: <input name="quantidade"><br>
+        <button>Cadastrar</button>
+    </form><br>
+</body>
+</html>
